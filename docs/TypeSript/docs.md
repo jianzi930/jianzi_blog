@@ -1,6 +1,6 @@
 ## 
 
-### 一、TypeScript 介绍 
+### 1、TypeScript 介绍 
 
 #### 1.1 TypeScript 是什么 
 
@@ -32,7 +32,7 @@ TypeScript 是微软开发的开源编程语言，可以在任何运行 JavaScri
 4. 支持最新的 ECMAScript 语法，优先体验最新的语法，让你走在前端技术的最前沿。
 5. TS 类型推断机制，不需要在代码中的每个地方都显示标注类型，让你在享受优势的同时，尽量降低了成本。 除此之外，Vue 3 源码使用 TS 重写、Angular 默认支持 TS、React 与 TS 完美配合，TypeScript 已成为大中型前端 项目的首先编程语言
 
-### 二、TypeScript 初体验 
+### 2、TypeScript 初体验 
 
 #### 2.1 安装编译 TS 的工具包
 
@@ -70,7 +70,7 @@ typescript 包：用来编译 TS 代码的包，<font color='red'>提供了 tsc 
 
 解释：ts-node 命令在内部偷偷的将 TS -> JS（不生成js文件），然后，再运行 JS 代码。 
 
-### 三、TypeScript 常用类型 
+### 3、TypeScript 常用类型 
 
 #### 3.0 概述
 
@@ -434,7 +434,7 @@ interface（接口）和 type（类型别名）的对比：
 2. typeof 出现在类型注解的位置（参数名称的冒号后面）所处的环境就在类型上下文（区别于 JS 代码）。 
 3. 注意：typeof 只能用来查询变量或属性的类型，无法查询其他形式的类型（比如，函数调用的类型）。
 
-### 四、TypeScript 高级类型 
+### 4、TypeScript 高级类型 
 
 #### 4.1 class 类 
 
@@ -920,7 +920,7 @@ TS 采用的是<font color='red'>结构化类型系统</font>，也叫做 duck t
 
 解释：使用 keyof 操作符获取 Props 中所有键对应的类型，结果为： string | number | boolean
 
-### 五、TypeScript 类型声明文件
+### 5、TypeScript 类型声明文件
 
 今天几乎所有的 JavaScript 应用都会引入许多第三方库来完成任务需求。 
 
